@@ -4,7 +4,7 @@
 // @version      0.3
 // @description  try to take over the world!
 // @author       You
-// @match        https://www.csfd.cz/zebricky/specificky-vyber/*
+// @match        https://www.csfd.cz/zebricky/vlastni-vyber/*
 // @grant        none
 // @downloadURL  https://github.com/Martas86/TamperMonkey/raw/master/Release/CSFD-Ranks.user.js
 // @updateURL    https://github.com/Martas86/TamperMonkey/raw/master/Release/CSFD-Ranks.user.js
