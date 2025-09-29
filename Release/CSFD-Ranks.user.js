@@ -34,14 +34,14 @@
     }
 
     $(document).ready(function() {
-        $(".ct-general.th-filter").append('<div style="width: 100%;">\
+        $(".search-item-full").append('<div style="width: 100%;">\
 <span>Min. poč. hodnocení:<span><input id="xMinRatingCnt" style="width: 50px;" type="input" value="500" />\
 <span style="margin: 0px 0px 0px 10px;">Mnou nehodnoceno:<span><input id="xNotRateByMe" style="" type="checkbox" />\
 <button id="xDofiltruj" style="margin: 0px 0px 0px 10px;" type=button>Dofiltruj</button><button id="xZrus" style="margin: 0px 0px 0px 10px;" type=button>Zruš</button>\
 <span id="xRwsCnt" style="float: right;">()</span>\
 </div>');
 
-        $(".ct-general.th-filter").on("click", "#xDofiltruj", function(){
+        $(".search-item-full").on("click", "#xDofiltruj", function(){
             dofiltruj();
         })
         .on("click", "#xZrus", function(){
